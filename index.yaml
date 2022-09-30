@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  railsapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-30T12:37:08.91540157Z"
+    description: A Helm chart for railsapp
+    digest: 9d5414b12ebf364c5ee1660a1eec4e93cb22e9c1753d9a9ad47840796d55ee07
+    name: railsapp
+    type: application
+    urls:
+    - https://github.com/shabbirsaifee92/helm-charts/releases/download/railsapp-0.1.0/railsapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-30T12:37:08.74119117Z"

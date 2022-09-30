@@ -1,5 +1,15 @@
 apiVersion: v1
 entries:
+  argocd-railsapp:
+  - apiVersion: v1
+    appVersion: x.x.x
+    created: "2022-09-30T18:24:31.636620275Z"
+    description: Argocd application for railsapp
+    digest: f54e094957dc5679bc229b69445618adf6c94c337de1e0f87a1d962351f908ec
+    name: argocd-railsapp
+    urls:
+    - https://github.com/shabbirsaifee92/helm-charts/releases/download/argocd-railsapp-1.0.0/argocd-railsapp-1.0.0.tgz
+    version: 1.0.0
   railsapp:
   - apiVersion: v2
     appVersion: 1.16.0

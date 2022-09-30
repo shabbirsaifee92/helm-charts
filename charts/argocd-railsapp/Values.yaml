@@ -1,0 +1,6 @@
+enabled: true
+autoSync: true
+image:
+  tag: latest
+global:
+  destinationServer: https://kubernetes.default.svc

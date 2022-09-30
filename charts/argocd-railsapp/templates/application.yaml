@@ -10,12 +10,13 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
+    chart: railsapp
+    repoURL: https://shabbirsaifee92.github.io/helm-charts/
+    targetRevision: {{ default .Chart.AppVersion .Values.appVersion }}
     helm:
       parameters:
       - name: "image.tag"
         value: {{ .Values.image.tag }}
-    chart: railsapp
-    repoURL: https://shabbirsaifee92.github.io/helm-charts/
   syncPolicy:
     automated:
       prune: true

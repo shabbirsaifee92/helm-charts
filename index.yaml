@@ -28,6 +28,17 @@ entries:
     urls:
     - https://github.com/shabbirsaifee92/helm-charts/releases/download/argocd-railsapp-1.0.0/argocd-railsapp-1.0.0.tgz
     version: 1.0.0
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-06T12:47:16.791975741Z"
+    description: A Helm chart for nginx
+    digest: 890ccd6a56e1253bfe81e143cb8ef5121abb7f1303559adab14f1b2774f1ad33
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/shabbirsaifee92/helm-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
+    version: 0.1.0
   railsapp:
   - apiVersion: v2
     appVersion: 1.16.0
